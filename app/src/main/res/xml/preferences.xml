@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Background">
+
+        <SeekBarPreference
+            android:defaultValue="0"
+            android:key="color_red"
+            android:max="255"
+            android:title="@string/color_red" />
+
+        <SeekBarPreference
+            android:defaultValue="0"
+            android:key="color_green"
+            android:max="255"
+            android:title="@string/color_green" />
+
+        <SeekBarPreference
+            android:defaultValue="0"
+            android:key="color_blue"
+            android:max="255"
+            android:title="@string/color_blue" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
